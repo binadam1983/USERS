@@ -36,8 +36,12 @@ func main() {
 	//Endpoints' definitions
 
 	user.POST("/register", controllers.Register)
+	user.POST("/login", controllers.Login)
 
-	//admin.GET("/login", controllers.AdminLogin)
+	//Protected routes using Auth Middleware
+	engine.Use(middleware.AuthMiddleware())
+
+	user.GET("/users", controllers.GetUsers)
 
 	srv := &http.Server{
 		Addr:    "localhost:3333",
