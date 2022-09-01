@@ -33,11 +33,12 @@ func main() {
 	engine.Use(middleware.CORS(options))
 	engine.Use(middleware.JSONLogMiddleware())
 
-	//Endpoints
+	//Endpoints' definitions
 
 	user.POST("/register", controllers.Register)
 
 	//admin.GET("/login", controllers.AdminLogin)
+
 	srv := &http.Server{
 		Addr:    "localhost:3333",
 		Handler: engine,

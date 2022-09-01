@@ -4,12 +4,14 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
+	"github.com/users/model"
 	utils "github.com/users/utils"
 )
 
 type RegisterInput struct {
+	Id       uint   `json:"id" form:"id"`
 	Email    string `json:"email" form:"email" binding:"required"`
-	Password string `json:"password" form:"email" binding:"required"`
+	Password string `json:"password" form:"password" binding:"required"`
 }
 
 func Register(c *gin.Context) {
@@ -25,6 +27,16 @@ func Register(c *gin.Context) {
 	valid, err := utils.ValidateEmail(input.Email)
 	if err != nil || !valid {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+		return
+	}
+
+	var user model.User
+	user.Email = input.Email
+	user.Password = input.Password
+
+	err = user.SaveUser()
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		return
 	}
 

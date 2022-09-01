@@ -4,5 +4,6 @@ use (
 	.
 	./controllers
 	./middleware
+	./model
 	./utils
 )
