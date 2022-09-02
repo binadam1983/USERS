@@ -3,18 +3,17 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/gin-gonic/gin"
 	"github.com/users/model"
+
+	"github.com/gin-gonic/gin"
 	utils "github.com/users/utils"
 )
 
 type RegisterInput struct {
-	Id       uint   `json:"id" form:"id"`
 	Email    string `json:"email" form:"email" binding:"required"`
 	Password string `json:"password" form:"password" binding:"required"`
 }
 type LoginInput struct {
-	//Id       uint   `json:"id" form:"id"`
 	Email    string `json:"email" form:"email" binding:"required"`
 	Password string `json:"password" form:"password" binding:"required"`
 }
@@ -67,18 +66,16 @@ func Login(c *gin.Context) {
 		c.JSON(http.StatusNotFound, gin.H{"Authentication error": err.Error()})
 		return
 	}
-
+	c.SetCookie("token", token, 180, "/", "localhost", true, false)
 	c.JSON(http.StatusOK, gin.H{"Token": token})
 }
 
 func GetUsers(c *gin.Context) {
 
-	//var users []string
-	//var err error
 	users, err := model.GetUsersFromDB()
 	if err != nil {
 		c.JSON(http.StatusNotFound, gin.H{"Error ": err.Error()})
 	}
 
-	c.JSON(http.StatusFound, gin.H{"Users: ": users})
+	c.JSON(http.StatusFound, gin.H{"Users ": users})
 }

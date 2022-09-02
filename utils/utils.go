@@ -1,12 +1,15 @@
 package middleware
 
 import (
+	"net/http"
 	"net/mail"
 	"os"
+	"strings"
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
+	log "github.com/sirupsen/logrus"
 )
 
 func GetDurationInMilliSeconds(start time.Time) float64 {
@@ -31,7 +34,7 @@ func GenerateToken(email string) (string, error) {
 	//creating a token
 	token, err := jwt.NewWithClaims(jwt.SigningMethodHS256, jwt.MapClaims{
 		"email": email,
-		"exp":   time.Now().Add(time.Hour * 24).Unix(),
+		"exp":   time.Now().Add(3 * time.Minute).Unix(),
 	}).SignedString([]byte(os.Getenv("SECRET_KEY")))
 	if err != nil {
 		return "", err
@@ -39,12 +42,36 @@ func GenerateToken(email string) (string, error) {
 	return token, nil
 }
 
-func VerifyToken(c *gin.Context) (string, error) {
+func extractToken(c *gin.Context) string {
+
 	token := c.Query("token")
+	if token == "" || len(strings.Split(token, ".")) != 3 {
+		token = c.GetHeader("Authorization")
+		if (strings.Split(token, " "))[0] == "Bearer" {
+			token = strings.Split(token, " ")[1]
+			log.Info("Bearer - ", token)
+			return token
+		}
+	}
+	return token
+}
+
+func VerifyToken(c *gin.Context) (string, error) {
+
+	token := extractToken(c)
+	if token == "" {
+		log.Info("token is empty")
+		return "", http.ErrAbortHandler
+	}
+	log.Info("token is not empty...")
 	claims := jwt.MapClaims{}
 
 	_, err := jwt.ParseWithClaims(token, claims, func(token *jwt.Token) (interface{}, error) {
-		return []byte(os.Getenv("SECRET_KEY")), nil
+		if _, ok := token.Method.(*jwt.SigningMethodHMAC); !ok {
+			return nil, jwt.ErrSignatureInvalid
+		} else {
+			return []byte(os.Getenv("SECRET_KEY")), nil
+		}
 	})
 	if err != nil {
 		return "", err

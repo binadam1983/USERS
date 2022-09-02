@@ -1,14 +1,13 @@
 package model
 
 import (
-	"log"
-
+	log "github.com/sirupsen/logrus"
 	utils "github.com/users/utils"
 	"golang.org/x/crypto/bcrypt"
 )
 
 type User struct {
-	Id       uint   `json:"id" form:"id"`
+	//	Id       uint   `json:"id" form:"id"`
 	Email    string `json:"email" form:"email" binding:"required"`
 	Password string `json:"password" form:"password" binding:"required, gte=8, lte=20"`
 }
@@ -44,7 +43,6 @@ func (u *User) AuthenticateUser() (string, error) {
 	defer db.Close()
 
 	//checking if the user exists in the database
-
 	matchedRow, err := db.Query("SELECT password FROM users WHERE email = ?", u.Email)
 	if err != nil {
 		log.Println("Account does not exist. Please register")

@@ -16,15 +16,14 @@ import (
 )
 
 func main() {
-
-	options := middleware.CORSOptions{Origin: "http://localhost:3333"}
+	gin.SetMode(gin.ReleaseMode)
+	options := middleware.CORSOptions{Origin: "localhost:3333"}
 
 	//creating a new gin engine instance
 	engine := gin.New()
 
 	//creating routing groups for ordinary users and admin
 	user := engine.Group("/user")
-	//admin := admin.Group("/admin")
 
 	//using default recovery middleware
 	engine.Use(gin.Recovery())
@@ -38,10 +37,8 @@ func main() {
 	user.POST("/register", controllers.Register)
 	user.POST("/login", controllers.Login)
 
-	//Protected routes using Auth Middleware
-	engine.Use(middleware.AuthMiddleware())
-
-	user.GET("/users", controllers.GetUsers)
+	//Using Auth Middleware to protect viewing users' records from un-authorized users
+	user.GET("/users", middleware.AuthMiddleware(), controllers.GetUsers)
 
 	srv := &http.Server{
 		Addr:    "localhost:3333",

@@ -1,2 +1,13 @@
-{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/register","request_id":"","status":404,"time":"2022-09-01T13:17:51+05:00"}
-{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/register","referer":"","request_id":"","status":404,"time":"2022-09-01T16:41:55+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":3.0055,"level":"error","method":"GET","msg":"","path":"/admin/users","referer":"","request_id":"","status":401,"time":"2022-09-02T22:51:35+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-02T22:53:10+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-02T22:53:10+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0.9968,"level":"error","method":"GET","msg":"","path":"/admin/users","referer":"","request_id":"","status":401,"time":"2022-09-02T22:53:10+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":14.0051,"level":"info","method":"GET","msg":"","path":"/admin/users","referer":"","request_id":"","status":302,"time":"2022-09-02T23:01:51+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/admin/users","referer":"","request_id":"","status":404,"time":"2022-09-02T23:06:51+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/users","referer":"","request_id":"","status":404,"time":"2022-09-02T23:07:00+05:00"}
+{"level":"info","msg":"Bearer - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRqYW5nb0Bkb21haW4uY29tIiwiZXhwIjoxNjYyMTQxODI2fQ.SSUxoTESw7gbQUIwOXiUjm7X73ndff_Ef9VciIE75MI","time":"2022-09-02T23:07:09+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-02T23:07:09+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-02T23:07:09+05:00"}
+{"level":"info","msg":"Bearer - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRqYW5nb0Bkb21haW4uY29tIiwiZXhwIjoxNjYyMTQyMzYyfQ.t4cazU7_tA_yWDXxa5L8HmqEe0XgA-phIwASGFqQyiw","time":"2022-09-02T23:11:08+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-02T23:11:08+05:00"}
+{"level":"info","msg":"User Valid \u003e django@domain.com","time":"2022-09-02T23:11:08+05:00"}

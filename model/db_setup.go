@@ -37,6 +37,5 @@ func DB_Connection() *sql.DB {
 		log.Println("Error pinging database", err.Error())
 		return nil
 	}
-	log.Println("Connected to database")
 	return db
 }
