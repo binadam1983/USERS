@@ -1,0 +1,31 @@
+<!-- menu.html -->
+
+<header>
+    <div class="brand">
+        <a href="#"><h1 class="heading">USERS</h1></a>
+    </div>
+</header>
+<main class="main">
+    <p class="heading">Please login, if you've registered already, else we need to know who you're!</p>
+    <div class="container">
+        <div class="register">
+            <h2>Register</h2>
+            <i class="back-reg fa fa-arrow-left"></i>
+            <form class="reg-form" action="http://localhost:3333/user/register" method="POST">
+                <input class="email-reg" type="text" name="email" placeholder="Email">
+                <input class="password-reg" type="password" name="password" placeholder="Password: min 8, max 20 characterss">
+                <input class="submit-reg" type="submit" value="Register">
+            </form>
+        </div>
+        <div class="login">
+            <h2>Login</h2>
+            <i class="back-login fa fa-arrow-left"></i>
+            <form class="login-form" action="http://localhost:3333/user/login" method="POST">
+                <input class="email-login" type="text" name="email" placeholder="Email">
+                <input class="password-login" type="password" name="password" placeholder="Password">
+                <input class="submit-login" type="submit" value="Login">
+            </form>
+        </div>
+    </div>
+</main>
+<script src="static/main.js"></script>

@@ -16,14 +16,18 @@ import (
 )
 
 func main() {
-	gin.SetMode(gin.ReleaseMode)
+	//	gin.SetMode(gin.ReleaseMode)
 	options := middleware.CORSOptions{Origin: "localhost:3333"}
 
 	//creating a new gin engine instance
 	engine := gin.New()
 
+	//serving static files
+	engine.LoadHTMLGlob("templates/*")
+
 	//creating routing groups for ordinary users and admin
 	user := engine.Group("/user")
+	user.Static("/static", "./static")
 
 	//using default recovery middleware
 	engine.Use(gin.Recovery())
@@ -33,7 +37,7 @@ func main() {
 	engine.Use(middleware.JSONLogMiddleware())
 
 	//Endpoints' definitions
-
+	user.GET("/", controllers.Homepage)
 	user.POST("/register", controllers.Register)
 	user.POST("/login", controllers.Login)
 

@@ -61,7 +61,7 @@ func VerifyToken(c *gin.Context) (string, error) {
 	token := extractToken(c)
 	if token == "" {
 		log.Info("token is empty")
-		return "", http.ErrAbortHandler
+		return "", http.ErrNoCookie
 	}
 	log.Info("token is not empty...")
 	claims := jwt.MapClaims{}
