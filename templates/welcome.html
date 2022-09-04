@@ -3,27 +3,29 @@
 {{ template "header-welcome.html" . }}
 
 
-<header class="header-welcome">
+<header>
     <nav class="navbar">
-        <a class="nav-brand" href="#">USERS</a>
-        <ul class="nav-menu">
-            <!-- <li class="nav-item">
-                <a href="#" class="nav-link">View Profile</a>
-            </li> -->
-            <li class="nav-item">
-                <a href="#" class="nav-link">Logout</a>
-            </li>
-        </ul>
-
-
-    <div class="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-    </div>
+        <div class="brand">
+            <a href="#"><h1 class="heading">USERS.</h1></a>
+        </div>
+        <div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Users</a>
+                </li>
+                <li class="nav-item">
+                    <a href="http://localhost:3333/user/logout" class="nav-link">Logout</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
     </nav>
 </header>
 
-
+<script src="static/main.js"></script>
 
 {{ template "footer.html" . }}

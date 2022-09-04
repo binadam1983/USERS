@@ -40,6 +40,7 @@ func main() {
 	user.GET("/", controllers.Homepage)
 	user.POST("/register", controllers.Register)
 	user.POST("/login", controllers.Login)
+	user.GET("/logout", controllers.Logout)
 
 	//Using Auth Middleware to protect viewing users' records from un-authorized users
 	user.GET("/users", middleware.AuthMiddleware(), controllers.GetUsers)

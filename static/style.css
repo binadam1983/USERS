@@ -1,10 +1,7 @@
-* {
-  margin: 0;
+*{
   padding: 0;
-  border: 0;
-  outline: 0;
+  margin: 0;
 }
-
 body {
   background: rgb(235, 234, 234);
   font-family: Roboto, Poppins, Arial, Helvetica, sans-serif;
@@ -12,7 +9,7 @@ body {
   right: 0;
   left: 0;
   top: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .brand {
@@ -61,7 +58,7 @@ body {
   cursor: pointer;
   border-radius: 5px;
   text-transform: uppercase;
-  padding-top: 5px;
+  padding-top: 25px;
 }
 .container .register .reg-form {
   display: none;
@@ -79,7 +76,7 @@ body {
   cursor: pointer;
   border-radius: 5px;
   text-transform: uppercase;
-  padding-top: 5px;
+  padding-top: 25px;
 }
 .container .login .login-form {
   display: none;
@@ -189,15 +186,13 @@ body {
 }
 
 /* welcome page */
-.header-welcome{
-  display: block;
-}
-.nav-brand {
+
+/* .nav-brand {
   font-size: 3rem;
   color: #fff;
   text-decoration: none;
   margin-left: 50px;
-}
+} */
 
 .navbar {
   background-color: #000;
@@ -207,45 +202,46 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-right: 30px;
 }
 
 .nav-menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.nav-item {
-  padding-left: 50px;
   list-style: none;
 }
 
-.nav-link {
+.nav-item{
+  display: flex;
+  align-items: center;
+}
+
+.nav-link{
   color: #fff;
   text-decoration: none;
+  padding: 10px;
   font-size: 20px;
 }
 
 .nav-link:hover {
-  background-color: #fff;
-  color: #000;
+  font-weight: 700;
 }
 
-.hamburger > .bar {
+.hamburger > .bar{
   display: none;
   cursor: pointer;
 }
 
 .hamburger .bar {
-  background-color: tomato;
   width: 25px;
   height: 3px;
-  margin: 3px 0;
+  margin: 3px 0px;
   transition: all 0.3s ease-in-out;
 }
 
 .hamburger.active .bar:nth-child(1) {
-  transform: rotate(45deg) translate(0px, 8px);
+  transform: rotate(405deg) translate(0px, 8px);
 }
 
 .hamburger.active .bar:nth-child(2) {
@@ -253,7 +249,7 @@ body {
 }
 
 .hamburger.active .bar:nth-child(3) {
-  transform: rotate(-45deg) translate(0px, -8px);
+  transform: rotate(-405deg) translate(0px, -8px);
 }
 
 @media (max-width: 768px) {
@@ -269,16 +265,22 @@ body {
     transition: all 0.3s ease-in-out;
   }
   .nav-menu {
-    top: 60px;
+    top: 90px;
     position: fixed;
     left: -100%;
     width: 100%;
     background-color: #000;
     color: #fff;
     flex-direction: column;
-    gap: 0px;
     text-align: center;
     transition: 0.3s;
+    border-bottom: rgb(185, 185, 185) 1px solid;
+  }
+  .nav-menu .nav-item{
+    display: block;
+    padding: 8px 0px;
+    width: 100%;
+    border-bottom: rgb(185, 185, 185) 1px solid;
   }
   .nav-menu.active {
     left: 0;

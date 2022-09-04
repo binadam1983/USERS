@@ -77,7 +77,7 @@ func Login(c *gin.Context) {
 	user.Password = input.Password
 
 	token, err := user.AuthenticateUser()
-	if err != nil {
+	if err != nil || err == http.ErrNoCookie || token == "" {
 		c.JSON(http.StatusNotFound, gin.H{"Authentication error": err.Error()})
 		return
 	}
@@ -85,6 +85,19 @@ func Login(c *gin.Context) {
 	c.HTML(http.StatusOK, "welcome.html", gin.H{"title": input.Email})
 	log.Info(http.StatusOK, gin.H{"Token": token})
 	log.Info(input.Email)
+}
+
+func Logout(c *gin.Context) {
+
+	exists := c.Query("token")
+	if exists != "" {
+		c.JSON(http.StatusNotFound, "Can't logout when not logged in!")
+		return
+	}
+
+	c.SetCookie("token", "", 0, "/", "localhost", true, false)
+	c.HTML(http.StatusOK, "logging-out.html", gin.H{"title": "Logged out"})
+
 }
 
 func GetUsers(c *gin.Context) {
