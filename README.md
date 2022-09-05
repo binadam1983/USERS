@@ -1,4 +1,4 @@
-A "work-in-progress" mini-project to demonstrate user registrations, logins, logouts, and simple DB queries to pull data records which uses the following:
+A "work-in-progress" mini-project to demonstrate user registrations, logins, logouts, and performing simple DB queries - all that using:
 
 - Golang Gin framework
 - Custom middlewares for Logs(in JSON format using 'logrus'), CORS, and Authentication/Authorization
@@ -9,5 +9,7 @@ A "work-in-progress" mini-project to demonstrate user registrations, logins, log
 
 Next up:
 
-- add tests
-- Seperation of application/handlers from DB using service layer
+- Add tests to enable CI
+- Seperate application/handlers from DB using service layer
+
+Heads Up: simple grid animation is applied at login/registration page that chrome doesn't support, but firefox does
