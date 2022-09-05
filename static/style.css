@@ -221,8 +221,8 @@ body {
   font-weight: 700;
 }
 
-section{
-  margin: 500px;
+.hero-section{
+  margin: 100px;
 }
 
 .users-list .ul-list > * {

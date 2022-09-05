@@ -1,9 +1,13 @@
-A small project to demonstrate user registrations, logins, and logouts using Golang and MySQL, which in turn uses the following:
+A "work-in-progress" mini-project to demonstrate user registrations, logins, logouts, and simple DB queries to pull data records which uses the following:
 
-- Gin framework
-- Uses Crypto to hash passwords before saving them to the database
+- Golang Gin framework
+- Custom middlewares for Logs(in JSON format using 'logrus'), CORS, and Authentication/Authorization
+- MySql as persistent database
+- Uses Crypto library to hash passwords before saving them to the database
 - JWTs for user authentication/authorization
-- MySql for database
-- Custom middlewares for Logs(in JSON format using 'logrus'), CORS, and Authentication/Authorization)
+- HTML, CSS and JS for responsive UI
 
-#TDD
+Next up:
+
+- add tests
+- Seperation of application/handlers from DB using service layer
