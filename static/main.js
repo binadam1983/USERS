@@ -12,9 +12,12 @@ const app = {
             case 'login-page':
                 app.loginPage()
                 break;
-            case 'welcome-page':
+            case 'welcome-page' || 'user-page':
                 app.welcomePage()
                 break;
+/*             case 'users-page':
+                app.welcomePage()
+                break; */
             default:
                 break;
             }
@@ -54,6 +57,16 @@ const app = {
             
         let hamburger = document.querySelector('.hamburger');
         let navMenu = document.querySelector('.nav-menu');
+        let getUsers = document.querySelector('#get-users');
+
+        /* getUsers.addEventListener('click', (e) => {
+            e.preventDefault();
+            fetch('http://localhost:3333/user/users')
+            .then(res => res.text())
+            .then(data => {console.log(data)})
+            .then(console.log('hello'))
+            .catch(err => console.log(err))
+        }) */
         
         hamburger.addEventListener('click', () => {
             hamburger.classList.toggle('active');
@@ -68,5 +81,4 @@ const app = {
         }));        
     }
 }
-
 app.init();

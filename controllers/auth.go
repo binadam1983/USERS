@@ -19,6 +19,8 @@ type LoginInput struct {
 	Password string `json:"password" form:"password" binding:"required"`
 }
 
+var token string
+
 func Register(c *gin.Context) {
 
 	var input RegisterInput
@@ -53,10 +55,11 @@ func Register(c *gin.Context) {
 		c.JSON(http.StatusNotFound, gin.H{"Authentication error": err.Error()})
 		return
 	}
+	c.SetSameSite(http.SameSiteNoneMode)
 	c.SetCookie("token", token, 180, "/", "localhost", true, false)
+
 	c.HTML(http.StatusOK, "welcome.html", gin.H{"title": input.Email})
 	log.Info(http.StatusOK, gin.H{"Token": token})
-	log.Info(input.Email)
 }
 
 func Login(c *gin.Context) {
@@ -81,6 +84,7 @@ func Login(c *gin.Context) {
 		c.JSON(http.StatusNotFound, gin.H{"Authentication error": err.Error()})
 		return
 	}
+	c.SetSameSite(http.SameSiteNoneMode)
 	c.SetCookie("token", token, 180, "/", "localhost", true, false)
 	c.HTML(http.StatusOK, "welcome.html", gin.H{"title": input.Email})
 	log.Info(http.StatusOK, gin.H{"Token": token})
@@ -89,13 +93,13 @@ func Login(c *gin.Context) {
 
 func Logout(c *gin.Context) {
 
-	exists := c.Query("token")
-	if exists != "" {
-		c.JSON(http.StatusNotFound, "Can't logout when not logged in!")
+	_, err := c.Cookie("token")
+	if err != nil {
+		c.JSON(http.StatusNotFound, err.Error())
 		return
 	}
-
-	c.SetCookie("token", "", 0, "/", "localhost", true, false)
+	c.SetSameSite(http.SameSiteNoneMode)
+	c.SetCookie("token", "", -1, "/", "localhost", true, false)
 	c.HTML(http.StatusOK, "logging-out.html", gin.H{"title": "Logged out"})
 
 }
@@ -107,7 +111,11 @@ func GetUsers(c *gin.Context) {
 		c.JSON(http.StatusNotFound, gin.H{"Error ": err.Error()})
 	}
 
-	c.JSON(http.StatusFound, gin.H{"Users ": users})
+	//c.JSON(http.StatusFound, users)
+
+	c.HTML(http.StatusFound, "users.html", gin.H{
+		"title": "Users",
+		"users": users})
 }
 
 func Homepage(c *gin.Context) {

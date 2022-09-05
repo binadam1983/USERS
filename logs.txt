@@ -55,3 +55,94 @@
 {"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/login","referer":"","request_id":"","status":404,"time":"2022-09-04T21:27:38+05:00"}
 {"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjMwOTA2Mn0.CIbhXDZgcwgjQGNLY8j59PmXqQ5WwpQRdVEJjXloqsA]","time":"2022-09-04T21:28:02+05:00"}
 {"level":"info","msg":"freeman@domain.com","time":"2022-09-04T21:28:02+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-04T22:49:20+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjMxMzk2MX0.C37SyZOZL0nfLMnsoNU4tAUW15uz27ZcBDYKARjvj2o]","time":"2022-09-04T22:49:41+05:00"}
+{"level":"info","msg":"freeman@domain.com","time":"2022-09-04T22:49:41+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-04T22:49:50+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-04T22:49:50+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/login","referer":"","request_id":"","status":404,"time":"2022-09-04T22:49:58+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-04T22:50:12+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-04T22:50:12+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/login","referer":"","request_id":"","status":404,"time":"2022-09-04T23:10:03+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjMxNTIwNn0.X3BfSpIRKmkpReN7pWFR3mMHsbLxdskYHceVc9Faz2Y]","time":"2022-09-04T23:10:26+05:00"}
+{"level":"info","msg":"freeman@domain.com","time":"2022-09-04T23:10:26+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-04T23:11:24+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjMxNTMyOX0.51OBPqwmKKnxcxOoplTLwgPfsEOQdVp0UkIBGWMGFbU]","time":"2022-09-04T23:12:29+05:00"}
+{"level":"info","msg":"freeman@domain.com","time":"2022-09-04T23:12:29+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-04T23:15:10+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-04T23:15:10+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-04T23:15:28+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-04T23:15:28+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjMxNTUyNn0.iLMIGz4rMmxupV_q2uw-SmBsptsI7HMj5PmFRX6nCt8]","time":"2022-09-04T23:15:46+05:00"}
+{"level":"info","msg":"freeman@domain.com","time":"2022-09-04T23:15:46+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-04T23:16:21+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-04T23:16:21+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/login","referer":"","request_id":"","status":404,"time":"2022-09-04T23:35:14+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjMxNjcxMn0.4ekWHlbdeWezPNCPo-A0zoJRz10dN2NJ4aWnGlvYpxM]","time":"2022-09-04T23:35:32+05:00"}
+{"level":"info","msg":"freeman@domain.com","time":"2022-09-04T23:35:32+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/login","referer":"","request_id":"","status":404,"time":"2022-09-05T00:04:20+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjMxODQ2MX0.S104pJ6BuVKPsinE7nMoOFfK0lcBHbaFE2tcMnqwAMw]","time":"2022-09-05T00:04:41+05:00"}
+{"level":"info","msg":"freeman@domain.com","time":"2022-09-05T00:04:41+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-05T00:04:46+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-05T00:04:46+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-05T00:23:18+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjMxOTU4Nn0.7Ys95hg9Kjt2mFLZD3YH90t0ue4HLT63aoVjHIrCfxY]","time":"2022-09-05T00:23:26+05:00"}
+{"level":"info","msg":"freeman@domain.com","time":"2022-09-05T00:23:26+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-05T00:23:30+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-05T00:23:30+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/login","referer":"","request_id":"","status":404,"time":"2022-09-05T00:24:59+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjMxOTY5NX0.CfLnuoQTZZI9ifHp3Pu_fiCcP_eT7faVTacrAnrGrbE]","time":"2022-09-05T00:25:15+05:00"}
+{"level":"info","msg":"freeman@domain.com","time":"2022-09-05T00:25:15+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-05T00:25:19+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-05T00:25:19+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-05T00:25:32+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-05T00:25:32+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-05T00:45:42+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjMyMDkzMX0.xYxe1n6EsoKqYQzP4tyUJDJFoqvWSgyie167-T77y_k]","time":"2022-09-05T00:45:51+05:00"}
+{"level":"info","msg":"freeman@domain.com","time":"2022-09-05T00:45:51+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-05T00:45:54+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-05T00:45:54+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/login","request_id":"","status":404,"time":"2022-09-05T01:06:32+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjMyMjIzOH0.6KHjq-mWNsPY7r3FOnZh5S7sgYAj0woC56yJL2Lq6Lw]","time":"2022-09-05T01:07:38+05:00"}
+{"level":"info","msg":"freeman@domain.com","time":"2022-09-05T01:07:38+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-05T01:07:42+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-05T01:07:42+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-05T01:08:17+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-05T01:08:17+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/login","referer":"","request_id":"","status":404,"time":"2022-09-05T01:15:17+05:00"}
+{"level":"info","msg":"Incorrect password","time":"2022-09-05T01:15:40+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjMyMjczMH0.5Hhv9bYIdGl-zWob3sdvKAGqAnYRaQcWaVbH21Jc_2Y]","time":"2022-09-05T01:15:50+05:00"}
+{"level":"info","msg":"freeman@domain.com","time":"2022-09-05T01:15:50+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-05T01:15:54+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-05T01:15:54+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/login","referer":"","request_id":"","status":404,"time":"2022-09-05T02:23:45+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjMyNjgxOX0.OZx7WNb_-SbOeunwxOwloYUrvxxAi4yGqmaqEWPl7Ks]","time":"2022-09-05T02:23:59+05:00"}
+{"level":"info","msg":"freeman@domain.com","time":"2022-09-05T02:23:59+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-05T02:24:01+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-05T02:24:01+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjMyNjgzNH0.Y6g68P-q43hFJVgAJ32DJpIAdeiPaTykLWAn2CWxPV4]","time":"2022-09-05T02:24:14+05:00"}
+{"level":"info","msg":"freeman@domain.com","time":"2022-09-05T02:24:14+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-05T11:48:09+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjM2MDY4M30.Da7Y2L8P3ha0Sz2JrUJcl2AOPlSLxUea8vizt3c_B_A]","time":"2022-09-05T11:48:23+05:00"}
+{"level":"info","msg":"freeman@domain.com","time":"2022-09-05T11:48:23+05:00"}
+{"level":"info","msg":"token_cookieeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjM2MDY4M30.Da7Y2L8P3ha0Sz2JrUJcl2AOPlSLxUea8vizt3c_B_A\u003cnil\u003e","time":"2022-09-05T11:48:50+05:00"}
+{"level":"info","msg":"token_header","time":"2022-09-05T11:48:50+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-05T11:48:50+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-05T11:48:50+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/login","referer":"","request_id":"","status":404,"time":"2022-09-05T13:01:15+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1lc3NhZ2VuYWVlbUBkb21haW4uY29tIiwiZXhwIjoxNjYyMzY1MDczfQ.qg_QpKz7Q6bza55ZRuXq_d28lRxMK8mbg6C_r00lsIs]","time":"2022-09-05T13:01:33+05:00"}
+{"level":"info","msg":"messagenaeem@domain.com","time":"2022-09-05T13:01:33+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-05T13:01:37+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-05T13:01:37+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/login","referer":"http://localhost:3333/user/users","request_id":"","status":404,"time":"2022-09-05T13:01:43+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1lc3NhZ2VuYWVlbUBkb21haW4uY29tIiwiZXhwIjoxNjYyMzY1MDk5fQ.PGTtscL1OdKIf5ZVtZP_VLXFSevUW6IaIUgS-wWUQXw]","time":"2022-09-05T13:01:59+05:00"}
+{"level":"info","msg":"messagenaeem@domain.com","time":"2022-09-05T13:01:59+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-05T13:02:04+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-05T13:02:04+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjM2NTE2MH0.1Bcg016PT4i_xMRPV5wG6M0nip3v7luutb0NYTycFfU]","time":"2022-09-05T13:03:00+05:00"}
+{"level":"info","msg":"freeman@domain.com","time":"2022-09-05T13:03:00+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-05T13:03:03+05:00"}
+{"level":"info","msg":"User Valid freeman@domain.com","time":"2022-09-05T13:03:03+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/login","referer":"http://localhost:3333/user/users","request_id":"","status":404,"time":"2022-09-05T13:03:06+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-05T13:03:20+05:00"}
+{"level":"info","msg":"User Valid freeman@domain.com","time":"2022-09-05T13:03:20+05:00"}

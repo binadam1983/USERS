@@ -44,8 +44,9 @@ func GenerateToken(email string) (string, error) {
 
 func extractToken(c *gin.Context) string {
 
-	token := c.Query("token")
-	if token == "" || len(strings.Split(token, ".")) != 3 {
+	token, err := c.Cookie("token")
+
+	if err != nil || token == "" || len(strings.Split(token, ".")) != 3 {
 		token = c.GetHeader("Authorization")
 		if (strings.Split(token, " "))[0] == "Bearer" {
 			token = strings.Split(token, " ")[1]

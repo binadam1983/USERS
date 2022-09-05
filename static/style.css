@@ -12,8 +12,8 @@ body {
   /* overflow: hidden; */
 }
 
-.brand {
-  font-size: 2rem;
+.heading {
+  font-size: 3rem;
   background-color: #000;
   padding-left: 50px;
   letter-spacing: 0.1rem;
@@ -187,13 +187,6 @@ body {
 
 /* welcome page */
 
-/* .nav-brand {
-  font-size: 3rem;
-  color: #fff;
-  text-decoration: none;
-  margin-left: 50px;
-} */
-
 .navbar {
   background-color: #000;
   color: #fff;
@@ -227,6 +220,15 @@ body {
 .nav-link:hover {
   font-weight: 700;
 }
+
+section{
+  margin: 500px;
+}
+
+.users-list .ul-list > * {
+  margin: 20px 0px;
+}
+
 
 .hamburger > .bar{
   display: none;
