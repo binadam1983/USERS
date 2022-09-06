@@ -2,6 +2,7 @@ A "work-in-progress" mini-project to demonstrate user registrations, logins, log
 
 - Golang Gin framework
 - Custom middlewares for Logs(in JSON format using 'logrus'), CORS, and Authentication/Authorization
+- Golang 'Crypto' library to hash passwords before saving them to the DB
 - MySql as persistent database
 - Uses Crypto library to hash passwords before saving them to the database
 - JWTs for user authentication/authorization

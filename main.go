@@ -23,7 +23,7 @@ func main() {
 	engine := gin.New()
 
 	//serving static files
-	engine.LoadHTMLGlob("templates/*")
+	engine.LoadHTMLGlob("static/templates/*")
 
 	//creating routing groups for ordinary users and admin
 	user := engine.Group("/user")

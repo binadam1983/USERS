@@ -153,3 +153,10 @@
 {"level":"info","msg":"token is not empty...","time":"2022-09-06T18:18:16+05:00"}
 {"level":"info","msg":"User Valid freeman@domain.com","time":"2022-09-06T18:18:16+05:00"}
 {"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/login","referer":"","request_id":"","status":404,"time":"2022-09-06T18:18:27+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-06T21:27:46+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjQ4MTg1NH0.yRHJNXbMtC54eCrSCS20LwyyffbPat7PJtWyjb4JBZg]","time":"2022-09-06T21:27:54+05:00"}
+{"level":"info","msg":"freeman@domain.com","time":"2022-09-06T21:27:54+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-06T21:28:02+05:00"}
+{"level":"info","msg":"User Valid freeman@domain.com","time":"2022-09-06T21:28:02+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/logout","request_id":"","status":404,"time":"2022-09-06T21:28:07+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-06T21:28:14+05:00"}
