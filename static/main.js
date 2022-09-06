@@ -58,15 +58,25 @@ const app = {
         let hamburger = document.querySelector('.hamburger');
         let navMenu = document.querySelector('.nav-menu');
         let getUsers = document.querySelector('#get-users');
+        const ulList = document.querySelector('.ul-list');
+        //const li = document.createElement('li');
+        const frag = document.createDocumentFragment();
 
-        /* getUsers.addEventListener('click', (e) => {
+
+        getUsers.addEventListener('click', (e) => {
             e.preventDefault();
             fetch('http://localhost:3333/user/users')
-            .then(res => res.text())
-            .then(data => {console.log(data)})
-            .then(console.log('hello'))
+            .then(res => res.json())
+            .then(data => {
+                for (const email of data) {
+                    const li = document.createElement('li');
+                    li.textContent = email;
+                    frag.appendChild(li);
+                }
+                return ulList.appendChild(frag);
+            })
             .catch(err => console.log(err))
-        }) */
+        })
         
         hamburger.addEventListener('click', () => {
             hamburger.classList.toggle('active');

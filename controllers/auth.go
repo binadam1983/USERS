@@ -111,11 +111,7 @@ func GetUsers(c *gin.Context) {
 		c.JSON(http.StatusNotFound, gin.H{"Error ": err.Error()})
 	}
 
-	//c.JSON(http.StatusFound, users)
-
-	c.HTML(http.StatusFound, "users.html", gin.H{
-		"title": "Users",
-		"users": users})
+	c.JSON(http.StatusFound, users)
 }
 
 func Homepage(c *gin.Context) {
