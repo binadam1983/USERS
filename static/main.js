@@ -2,7 +2,7 @@ const app = {
     init: () => {
         document.addEventListener('DOMContentLoaded', app.load);
     },
-    load: () => {
+    load: () => {        
         app.getData();
     },
     getData: () => {
@@ -58,14 +58,21 @@ const app = {
         let hamburger = document.querySelector('.hamburger');
         let navMenu = document.querySelector('.nav-menu');
         let getUsers = document.querySelector('#get-users');
+        const userList = document.querySelector('.users-list');
         const ulList = document.querySelector('.ul-list');
-        //const li = document.createElement('li');
         const frag = document.createDocumentFragment();
+        const url = 'http://localhost:3333/user/users';
+
+        const listHeading = document.createElement('h4');
+        listHeading.setAttribute('class', 'heading4');
+        listHeading.textContent = 'USERS';
 
 
         getUsers.addEventListener('click', (e) => {
             e.preventDefault();
-            fetch('http://localhost:3333/user/users')
+            userList.prepend(listHeading);
+
+            fetch(url)
             .then(res => res.json())
             .then(data => {
                 for (const email of data) {
@@ -73,10 +80,12 @@ const app = {
                     li.textContent = email;
                     frag.appendChild(li);
                 }
-                return ulList.appendChild(frag);
+                console.log(frag)
+                ulList.append(frag)
+                return;                                    
             })
             .catch(err => console.log(err))
-        })
+        }); 
         
         hamburger.addEventListener('click', () => {
             hamburger.classList.toggle('active');

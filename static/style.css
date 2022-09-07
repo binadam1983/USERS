@@ -225,10 +225,6 @@ body {
   margin: 100px;
 }
 
-.users-list .ul-list > * {
-  margin: 20px 0px;
-}
-
 
 .hamburger > .bar{
   display: none;
