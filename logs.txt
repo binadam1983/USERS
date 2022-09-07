@@ -19669,3 +19669,8 @@
 {"level":"info","msg":"User Valid freeman@domain.com","time":"2022-09-07T14:01:58+05:00"}
 {"level":"info","msg":"token is not empty...","time":"2022-09-07T14:02:04+05:00"}
 {"level":"info","msg":"User Valid freeman@domain.com","time":"2022-09-07T14:02:04+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-07T17:44:28+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjU1NDg2MX0.zNWAM0vf-fwLs4BLrjt0jvFeSoTH1YbDjIbjTBAHUnc]","time":"2022-09-07T17:44:41+05:00"}
+{"level":"info","msg":"freeman@domain.com","time":"2022-09-07T17:44:41+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-07T17:44:50+05:00"}
+{"level":"info","msg":"User Valid freeman@domain.com","time":"2022-09-07T17:44:50+05:00"}

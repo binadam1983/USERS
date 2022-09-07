@@ -71,20 +71,37 @@ const app = {
         getUsers.addEventListener('click', (e) => {
             e.preventDefault();
             userList.prepend(listHeading);
+            if (firstTime){
+                fetch(url)
+                .then(res => res.json())
+                .then(data => {
+                    for (const email of data) {
+                        const li = document.createElement('li');
+                        li.textContent = email;
+                        frag.appendChild(li);
+                    }                    
+                    ulList.append(frag)
+                    firstTime = false;
+                    return;                                    
+                })
+                .catch(err => console.log(err))
+            }                          
+            setInterval(function() {
+                fetch(url)
+                .then(res => res.json())
+                .then(data => {
+                    console.log(firstTime)
+                    for (const email of data) {
+                        const li = document.createElement('li');
+                        li.textContent = email;
+                        frag.append(li);
+                    }
+                    ulList.replaceChildren(frag)
+                    return;                                    
+                })
+                .catch(err => console.log(err))}, 5000);
 
-            fetch(url)
-            .then(res => res.json())
-            .then(data => {
-                for (const email of data) {
-                    const li = document.createElement('li');
-                    li.textContent = email;
-                    frag.appendChild(li);
-                }
-                console.log(frag)
-                ulList.append(frag)
-                return;                                    
-            })
-            .catch(err => console.log(err))
+
         }); 
         
         hamburger.addEventListener('click', () => {
@@ -100,4 +117,5 @@ const app = {
         }));        
     }
 }
+let firstTime=true
 app.init();

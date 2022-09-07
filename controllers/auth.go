@@ -50,7 +50,7 @@ func Register(c *gin.Context) {
 	}
 
 	//c.JSON(http.StatusOK, gin.H{"Success": input.Email})
-	token, err := user.AuthenticateUser()
+	token, err := utils.GenerateToken(input.Email)
 	if err != nil {
 		c.JSON(http.StatusNotFound, gin.H{"Authentication error": err.Error()})
 		return
