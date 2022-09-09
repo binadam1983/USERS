@@ -11,7 +11,7 @@ A "work-in-progress" mini-project to demonstrate user registrations, logins, log
 It also features:
 
 - AJAX-style view update that doesn't require page reloads for every record that is added/updated/deleted from the DB.
-- Microservices architecture to support CI/CD
+- Microservices architecture to support CI/CD and is added to gitlab CI/CD pipeline
 
 Next up:
 
