@@ -8,10 +8,10 @@ A "work-in-progress" mini-project to demonstrate user registrations, logins, log
 - JWTs for user authentication/authorization
 - HTML, CSS and JS for responsive UI
 
-It also features
+It also features:
 
-- ajax-style view update that doesn't require page reloads for every record that is added/updated/deleted from the DB.
-- Microservice architecture to support CI/CD
+- AJAX-style view update that doesn't require page reloads for every record that is added/updated/deleted from the DB.
+- Microservices architecture to support CI/CD
 
 Next up:
 
