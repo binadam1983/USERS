@@ -8,11 +8,13 @@ A "work-in-progress" mini-project to demonstrate user registrations, logins, log
 - JWTs for user authentication/authorization
 - HTML, CSS and JS for responsive UI
 
-It also features ajax-style view update that doesn't require page reloads for every record that is added/updated/deleted from the DB.
+It also features
+
+- ajax-style view update that doesn't require page reloads for every record that is added/updated/deleted from the DB.
+- Microservice architecture to support CI/CD
 
 Next up:
 
-- Add tests to enable CI
 - Seperate application/handlers from DB using service layer
 
 Heads Up: simple grid animation is applied at login/registration page that chrome doesn't support, but firefox does

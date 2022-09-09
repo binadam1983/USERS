@@ -12,14 +12,12 @@ import (
 
 type RegisterInput struct {
 	Email    string `json:"email" form:"email" binding:"required"`
-	Password string `json:"password" form:"password" binding:"required"`
+	Password string `json:"password" form:"password" binding:"required,gte=8,lte=20"`
 }
 type LoginInput struct {
 	Email    string `json:"email" form:"email" binding:"required"`
 	Password string `json:"password" form:"password" binding:"required"`
 }
-
-var token string
 
 func Register(c *gin.Context) {
 
@@ -109,6 +107,7 @@ func GetUsers(c *gin.Context) {
 	users, err := model.GetUsersFromDB()
 	if err != nil {
 		c.JSON(http.StatusNotFound, gin.H{"Error ": err.Error()})
+		return
 	}
 
 	c.JSON(http.StatusFound, users)

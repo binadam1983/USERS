@@ -19674,3 +19674,15 @@
 {"level":"info","msg":"freeman@domain.com","time":"2022-09-07T17:44:41+05:00"}
 {"level":"info","msg":"token is not empty...","time":"2022-09-07T17:44:50+05:00"}
 {"level":"info","msg":"User Valid freeman@domain.com","time":"2022-09-07T17:44:50+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-08T21:00:07+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RpbmcxMjNAZG9tYWluLmNvbSIsImV4cCI6MTY2MjY1MzE4OX0.iIklQ5w3IVkxXhawBmLEdgcDImchlzonJbPOY4VcPZ0]","time":"2022-09-08T21:03:29+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RpbmcxMjNAdGVzdGluZy5jb20iLCJleHAiOjE2NjI2NTMzMDF9.NMvLnbjXT9hAOHbh6i9Y9qKfcN28qOBXqk7qloI3dXs]","time":"2022-09-08T21:05:21+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-09T02:24:24+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW4iLCJleHAiOjE2NjI2NzI0NTR9.EOCiHyp0MY-6WNaa-wCkt8GLOoKX9c8muyjl49CiF6U]","time":"2022-09-09T02:24:34+05:00"}
+{"level":"info","msg":"freeman","time":"2022-09-09T02:24:34+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYSIsImV4cCI6MTY2MjY3MjQ4OX0.xjzbjuxe7mAh3nqbWRDhPKow6Sd1u5TumEiV1j_cxy0]","time":"2022-09-09T02:25:09+05:00"}
+{"level":"info","msg":"freema","time":"2022-09-09T02:25:09+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/logout","request_id":"","status":404,"time":"2022-09-09T14:23:17+05:00"}
+{"level":"info","msg":"Incorrect credentials OR Account does not exist. if later, Please Register first","time":"2022-09-09T14:24:07+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjcxNTYzNH0.YRQGVUoYyvTfDJlsgcs7iyxYwdgvUP5rlmiQoNlIeXs]","time":"2022-09-09T14:24:14+05:00"}
+{"level":"info","msg":"freeman@domain.com","time":"2022-09-09T14:24:14+05:00"}
