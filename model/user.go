@@ -87,7 +87,6 @@ func GetUsersFromDB() ([]string, error) {
 
 	var users []string
 	var email, password string
-	var id uint
 	db := DB_Connection()
 	defer db.Close()
 
@@ -96,7 +95,7 @@ func GetUsersFromDB() ([]string, error) {
 		return nil, err
 	}
 	for result.Next() {
-		_ = result.Scan(&id, &email, &password)
+		_ = result.Scan(&email, &password)
 		users = append(users, email)
 	}
 	return users, nil
