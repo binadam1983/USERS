@@ -54,7 +54,7 @@ func Register(c *gin.Context) {
 		return
 	}
 	c.SetSameSite(http.SameSiteNoneMode)
-	c.SetCookie("token", token, 180, "/", "localhost", true, false)
+	c.SetCookie("token", token, 300, "/", "localhost", true, false)
 
 	c.HTML(http.StatusOK, "welcome.html", gin.H{"title": input.Email})
 	log.Info(http.StatusOK, gin.H{"Token": token})
@@ -83,7 +83,7 @@ func Login(c *gin.Context) {
 		return
 	}
 	c.SetSameSite(http.SameSiteNoneMode)
-	c.SetCookie("token", token, 180, "/", "localhost", true, false)
+	c.SetCookie("token", token, 300, "/", "localhost", true, false)
 	c.HTML(http.StatusOK, "welcome.html", gin.H{"title": input.Email})
 	log.Info(http.StatusOK, gin.H{"Token": token})
 	log.Info(input.Email)

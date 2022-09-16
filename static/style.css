@@ -17,13 +17,11 @@ body {
   background-color: #000;
   padding-left: 50px;
   letter-spacing: 0.1rem;
+  margin: 0px;
 }
 .brand a {
   text-decoration: none;
   color: #fff;
-}
-.brand .heading{
-  margin: 0px;
 }
 
 .main {
@@ -99,6 +97,7 @@ body {
   border: none;
   border-radius: 5px;
   margin: 10px;
+  padding: 0px 10px;
 }
 .container.active-reg .password-reg {
   width: 80%;
@@ -106,6 +105,7 @@ body {
   border: none;
   border-radius: 5px;
   margin: 10px;
+  padding: 0px 10px;
 }
 .container.active-reg .submit-reg {
   width: 50%;
@@ -118,6 +118,7 @@ body {
   letter-spacing: 0.2rem;
   font-weight: 500;
   font-size: 1rem;
+  cursor: pointer;
 }
 .container.active-reg .login {
   display: none;
@@ -132,7 +133,6 @@ body {
 
 .container.active-login {
   background: rgb(83, 83, 83);
-  /* box-shadow: 0px 2px 1px 1px rgb(119, 119, 119); */
   color: rgb(241, 241, 241);
   text-align: center;
   letter-spacing: 0.2rem;
@@ -156,6 +156,7 @@ body {
   border: none;
   border-radius: 5px;
   margin: 10px;
+  padding: 0px 10px;
 }
 .container.active-login .password-login {
   width: 80%;
@@ -163,6 +164,7 @@ body {
   border: none;
   border-radius: 5px;
   margin: 10px;
+  padding: 0px 10px;
 }
 .container.active-login .submit-login {
   width: 50%;
@@ -180,7 +182,7 @@ body {
 .container.active-login .back-login {
   position: absolute;
   display: block;
-  top: 20px;
+  top: 15px;
   left: 20px;
   cursor: pointer;
 }

@@ -12,18 +12,15 @@ const app = {
             case 'login-page':
                 app.loginPage()
                 break;
-            case 'welcome-page' || 'user-page':
+            case 'welcome-page':
                 app.welcomePage()
                 break;
-/*             case 'users-page':
-                app.welcomePage()
-                break; */
             default:
                 break;
             }
         },
         
-        // This section JS code for / route
+        // This section JS code for /, register, and login route
         loginPage: () => {
         
             let containerBox = document.querySelector('.container');
@@ -66,7 +63,7 @@ const app = {
         const listHeading = document.createElement('h4');
         listHeading.setAttribute('class', 'heading4');
         listHeading.textContent = 'USERS';
-
+        listHeading.style.padding = '10px';
 
         getUsers.addEventListener('click', (e) => {
             e.preventDefault();
@@ -78,6 +75,7 @@ const app = {
                     for (const email of data) {
                         const li = document.createElement('li');
                         li.textContent = email;
+                        li.style.padding = '8px';
                         frag.appendChild(li);
                     }                    
                     ulList.append(frag)
@@ -94,6 +92,7 @@ const app = {
                     for (const email of data) {
                         const li = document.createElement('li');
                         li.textContent = email;
+                        li.style.padding = '8px';
                         frag.append(li);
                     }
                     ulList.replaceChildren(frag)

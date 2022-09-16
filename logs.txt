@@ -19687,3 +19687,381 @@
 {"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjcxNTYzNH0.YRQGVUoYyvTfDJlsgcs7iyxYwdgvUP5rlmiQoNlIeXs]","time":"2022-09-09T14:24:14+05:00"}
 {"level":"info","msg":"freeman@domain.com","time":"2022-09-09T14:24:14+05:00"}
 {"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-09T23:24:18+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/","referer":"","request_id":"","status":404,"time":"2022-09-10T19:22:54+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/","request_id":"","status":404,"time":"2022-09-10T19:22:55+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/users","referer":"","request_id":"","status":404,"time":"2022-09-10T19:22:59+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-10T19:35:10+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RpbmcxMjM0QHRlc3RpbmcuY29tIiwiZXhwIjoxNjYyODIwNzc4fQ.3HufuF4oI-flu6GPhXLNXGURCadsFs-YISrAabD8mvg]","time":"2022-09-10T19:36:38+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:37:23+05:00"}
+{"level":"info","msg":"User Valid testing1234@testing.com","time":"2022-09-10T19:37:23+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:37:28+05:00"}
+{"level":"info","msg":"User Valid testing1234@testing.com","time":"2022-09-10T19:37:28+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:37:33+05:00"}
+{"level":"info","msg":"User Valid testing1234@testing.com","time":"2022-09-10T19:37:33+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:37:38+05:00"}
+{"level":"info","msg":"User Valid testing1234@testing.com","time":"2022-09-10T19:37:38+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:37:43+05:00"}
+{"level":"info","msg":"User Valid testing1234@testing.com","time":"2022-09-10T19:37:43+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:37:48+05:00"}
+{"level":"info","msg":"User Valid testing1234@testing.com","time":"2022-09-10T19:37:48+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:37:53+05:00"}
+{"level":"info","msg":"User Valid testing1234@testing.com","time":"2022-09-10T19:37:53+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:37:58+05:00"}
+{"level":"info","msg":"User Valid testing1234@testing.com","time":"2022-09-10T19:37:58+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:38:03+05:00"}
+{"level":"info","msg":"User Valid testing1234@testing.com","time":"2022-09-10T19:38:03+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:38:08+05:00"}
+{"level":"info","msg":"User Valid testing1234@testing.com","time":"2022-09-10T19:38:08+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:38:13+05:00"}
+{"level":"info","msg":"User Valid testing1234@testing.com","time":"2022-09-10T19:38:13+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:38:18+05:00"}
+{"level":"info","msg":"User Valid testing1234@testing.com","time":"2022-09-10T19:38:18+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:38:23+05:00"}
+{"level":"info","msg":"User Valid testing1234@testing.com","time":"2022-09-10T19:38:23+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:38:28+05:00"}
+{"level":"info","msg":"User Valid testing1234@testing.com","time":"2022-09-10T19:38:28+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:38:33+05:00"}
+{"level":"info","msg":"User Valid testing1234@testing.com","time":"2022-09-10T19:38:33+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:38:38+05:00"}
+{"level":"info","msg":"User Valid testing1234@testing.com","time":"2022-09-10T19:38:38+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:38:43+05:00"}
+{"level":"info","msg":"User Valid testing1234@testing.com","time":"2022-09-10T19:38:43+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:38:48+05:00"}
+{"level":"info","msg":"User Valid testing1234@testing.com","time":"2022-09-10T19:38:48+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:38:53+05:00"}
+{"level":"info","msg":"User Valid testing1234@testing.com","time":"2022-09-10T19:38:53+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:38:58+05:00"}
+{"level":"info","msg":"User Valid testing1234@testing.com","time":"2022-09-10T19:38:58+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1lc3NhZ2VuYWVlbTEyM0Bkb21haW4uY29tIiwiZXhwIjoxNjYyODIxMTQ1fQ.HjVhy8V9TNmsU6i4CxJEvyT1R-u8e7rfnIKDFoS5OkQ]","time":"2022-09-10T19:42:45+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:43:18+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:43:18+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:43:23+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:43:23+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:43:28+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:43:28+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:43:33+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:43:33+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:43:38+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:43:38+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:43:43+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:43:43+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:43:48+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:43:48+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:43:53+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:43:53+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:43:58+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:43:58+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:44:03+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:44:03+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:44:08+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:44:08+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:44:13+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:44:13+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:44:18+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:44:18+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:44:23+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:44:23+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:44:28+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:44:28+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:44:33+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:44:33+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:44:38+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:44:38+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:44:43+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:44:43+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:44:48+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:44:48+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:44:53+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:44:53+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:44:58+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:44:58+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:45:03+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:45:03+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:45:08+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:45:08+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:45:13+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:45:13+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:45:18+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:45:18+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:45:23+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:45:23+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:45:28+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:45:28+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:45:33+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:45:33+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:45:38+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:45:38+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T19:45:43+05:00"}
+{"level":"info","msg":"User Valid messagenaeem123@domain.com","time":"2022-09-10T19:45:43+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:45:48+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:45:48+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:45:53+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:45:53+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:45:58+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:45:58+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:46:03+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:46:03+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:46:08+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:46:08+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:46:13+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:46:13+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:46:18+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:46:18+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:46:23+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:46:23+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:46:28+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:46:28+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:46:33+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:46:33+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:46:38+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:46:38+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:46:43+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:46:43+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:46:48+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:46:48+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:46:53+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:46:53+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:46:58+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:46:58+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:47:03+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:47:03+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:47:08+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:47:08+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:47:13+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:47:13+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:47:18+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:47:18+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:47:23+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:47:23+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:47:28+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:47:28+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:47:33+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:47:33+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:47:38+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:47:38+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:47:43+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:47:43+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:47:48+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:47:48+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:47:53+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:47:53+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:47:58+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:47:58+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:48:03+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:48:03+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:48:08+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:48:08+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:48:13+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:48:13+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:48:18+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:48:18+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:48:23+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:48:23+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:48:28+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:48:28+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:48:33+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:48:33+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:48:38+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:48:38+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:48:43+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:48:43+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:48:48+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:48:48+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:48:53+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:48:53+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:48:58+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:48:58+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:49:03+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:49:03+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:49:08+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:49:08+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:49:13+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:49:13+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-10T19:49:18+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-10T19:49:18+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-10T20:00:54+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RpbmcxMTFAdGVzdGluZy5jb20iLCJleHAiOjE2NjI4MjIzMjF9.Lwz_eSw7mV3kUftNLJdCsElZBFow46YEIGdz4Ew9CEM]","time":"2022-09-10T20:02:21+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T20:03:15+05:00"}
+{"level":"info","msg":"User Valid testing111@testing.com","time":"2022-09-10T20:03:15+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T20:03:20+05:00"}
+{"level":"info","msg":"User Valid testing111@testing.com","time":"2022-09-10T20:03:20+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T20:03:25+05:00"}
+{"level":"info","msg":"User Valid testing111@testing.com","time":"2022-09-10T20:03:25+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T20:03:30+05:00"}
+{"level":"info","msg":"User Valid testing111@testing.com","time":"2022-09-10T20:03:30+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T20:03:35+05:00"}
+{"level":"info","msg":"User Valid testing111@testing.com","time":"2022-09-10T20:03:35+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T20:03:40+05:00"}
+{"level":"info","msg":"User Valid testing111@testing.com","time":"2022-09-10T20:03:40+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T20:03:45+05:00"}
+{"level":"info","msg":"User Valid testing111@testing.com","time":"2022-09-10T20:03:45+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T20:03:50+05:00"}
+{"level":"info","msg":"User Valid testing111@testing.com","time":"2022-09-10T20:03:50+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T20:03:55+05:00"}
+{"level":"info","msg":"User Valid testing111@testing.com","time":"2022-09-10T20:03:55+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T20:04:00+05:00"}
+{"level":"info","msg":"User Valid testing111@testing.com","time":"2022-09-10T20:04:00+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T20:04:05+05:00"}
+{"level":"info","msg":"User Valid testing111@testing.com","time":"2022-09-10T20:04:05+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T20:04:10+05:00"}
+{"level":"info","msg":"User Valid testing111@testing.com","time":"2022-09-10T20:04:10+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T20:04:15+05:00"}
+{"level":"info","msg":"User Valid testing111@testing.com","time":"2022-09-10T20:04:15+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T20:04:20+05:00"}
+{"level":"info","msg":"User Valid testing111@testing.com","time":"2022-09-10T20:04:20+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T20:04:25+05:00"}
+{"level":"info","msg":"User Valid testing111@testing.com","time":"2022-09-10T20:04:25+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T20:04:30+05:00"}
+{"level":"info","msg":"User Valid testing111@testing.com","time":"2022-09-10T20:04:30+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T20:04:35+05:00"}
+{"level":"info","msg":"User Valid testing111@testing.com","time":"2022-09-10T20:04:35+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-10T20:04:40+05:00"}
+{"level":"info","msg":"User Valid testing111@testing.com","time":"2022-09-10T20:04:40+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/login","referer":"","request_id":"","status":404,"time":"2022-09-10T20:04:56+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWVtYW5AZG9tYWluLmNvbSIsImV4cCI6MTY2MjgyMjQ5MH0.uRr__3uKqk_QDmiK5LDmW6UoRHx0W6UqgxmyEx9ZIns]","time":"2022-09-10T20:05:10+05:00"}
+{"level":"info","msg":"freeman@domain.com","time":"2022-09-10T20:05:10+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-11T00:53:38+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-11T00:57:09+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-11T01:28:42+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RpbmcxMjNAdGVzdGluZy5jb20iLCJleHAiOjE2NjI4NDE5NDF9.yb15E3x-hOvHPB7fXgm847ZLlYv54PPlluYCO0L_jvk]","time":"2022-09-11T01:29:21+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RpbmcyMjJAdGVzdGluZy5jb20iLCJleHAiOjE2NjI4NDIzMDV9.4SPoQmrl28Ss8WLlawFrlOtQfY2Gquf6es1TDpCs-jI]","time":"2022-09-11T01:35:25+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:36:29+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:36:29+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:36:34+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:36:34+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:36:39+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:36:39+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:36:44+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:36:44+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:36:49+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:36:49+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:36:54+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:36:54+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:36:59+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:36:59+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:37:04+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:37:04+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:37:09+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:37:09+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:37:14+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:37:14+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:37:19+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:37:19+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:37:24+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:37:24+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:37:29+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:37:29+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:37:34+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:37:34+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:37:39+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:37:39+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:37:44+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:37:44+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:37:49+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:37:49+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RpbmcxMjNAdGVzdGluZy5jb20iLCJleHAiOjE2NjI4NDI0NTJ9.jiDOc_r67XqW8b7aqI3AT-AJ0l0w0L4Re-YUkzCNRtg]","time":"2022-09-11T01:37:52+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:37:54+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:37:54+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:37:59+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:37:59+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:38:04+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:38:04+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:38:09+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:38:09+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T01:38:14+05:00"}
+{"level":"info","msg":"User Valid testing222@testing.com","time":"2022-09-11T01:38:14+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RpbmcxMjNAdGVzdGluZy5jb20iLCJleHAiOjE2NjI4NDI1MDF9.zOA5wjOtnccQ92hItZotsAapTZuFNtkCp39C0cpGmwo]","time":"2022-09-11T01:38:41+05:00"}
+{"level":"info","msg":"testing123@testing.com","time":"2022-09-11T01:38:41+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":1.0021,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-11T15:11:22+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RpbmcxMjNAZG9tYWluLmNvbSIsImV4cCI6MTY2Mjg5MTQwOH0.vEH8kaAH4AZhQwotiGUsFcnoHjXawClgDJz90_MBgl8]","time":"2022-09-11T15:13:48+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T15:15:03+05:00"}
+{"level":"info","msg":"User Valid testing123@domain.com","time":"2022-09-11T15:15:03+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T15:15:08+05:00"}
+{"level":"info","msg":"User Valid testing123@domain.com","time":"2022-09-11T15:15:08+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T15:15:13+05:00"}
+{"level":"info","msg":"User Valid testing123@domain.com","time":"2022-09-11T15:15:13+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T15:15:18+05:00"}
+{"level":"info","msg":"User Valid testing123@domain.com","time":"2022-09-11T15:15:18+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T15:15:23+05:00"}
+{"level":"info","msg":"User Valid testing123@domain.com","time":"2022-09-11T15:15:23+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T15:15:28+05:00"}
+{"level":"info","msg":"User Valid testing123@domain.com","time":"2022-09-11T15:15:28+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T15:15:33+05:00"}
+{"level":"info","msg":"User Valid testing123@domain.com","time":"2022-09-11T15:15:33+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T15:15:38+05:00"}
+{"level":"info","msg":"User Valid testing123@domain.com","time":"2022-09-11T15:15:38+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T15:15:43+05:00"}
+{"level":"info","msg":"User Valid testing123@domain.com","time":"2022-09-11T15:15:43+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T15:15:48+05:00"}
+{"level":"info","msg":"User Valid testing123@domain.com","time":"2022-09-11T15:15:48+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T15:15:53+05:00"}
+{"level":"info","msg":"User Valid testing123@domain.com","time":"2022-09-11T15:15:53+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T15:15:58+05:00"}
+{"level":"info","msg":"User Valid testing123@domain.com","time":"2022-09-11T15:15:58+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T15:16:03+05:00"}
+{"level":"info","msg":"User Valid testing123@domain.com","time":"2022-09-11T15:16:03+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T15:16:08+05:00"}
+{"level":"info","msg":"User Valid testing123@domain.com","time":"2022-09-11T15:16:08+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RpbmcxMTFAZG9tYWluLmNvbSIsImV4cCI6MTY2Mjg5MTU1MH0.j9XiWuH_8B78_vdu68goeAmTilheGrTaZUXq-9CJ1Ow]","time":"2022-09-11T15:16:10+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T15:16:13+05:00"}
+{"level":"info","msg":"User Valid testing123@domain.com","time":"2022-09-11T15:16:13+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T15:16:18+05:00"}
+{"level":"info","msg":"User Valid testing123@domain.com","time":"2022-09-11T15:16:18+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T15:16:23+05:00"}
+{"level":"info","msg":"User Valid testing123@domain.com","time":"2022-09-11T15:16:23+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T15:16:28+05:00"}
+{"level":"info","msg":"User Valid testing123@domain.com","time":"2022-09-11T15:16:28+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T15:16:33+05:00"}
+{"level":"info","msg":"User Valid testing123@domain.com","time":"2022-09-11T15:16:33+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T15:16:38+05:00"}
+{"level":"info","msg":"User Valid testing123@domain.com","time":"2022-09-11T15:16:38+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-11T15:16:43+05:00"}
+{"level":"info","msg":"User Valid testing123@domain.com","time":"2022-09-11T15:16:43+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-11T15:16:48+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-11T15:16:48+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-11T15:16:53+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-11T15:16:53+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-11T15:16:58+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-11T15:16:58+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-11T15:17:03+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-11T15:17:03+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RpbmcxMjNAdGVzdGluZy5jb20iLCJleHAiOjE2NjI4OTE2MzZ9.BbjZBM1bQJMLerBsJvsTZU3hoZqkyOUMVgU_CCCsKFs]","time":"2022-09-11T15:17:36+05:00"}
+{"level":"info","msg":"testing123@testing.com","time":"2022-09-11T15:17:36+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-12T22:03:09+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-12T22:05:47+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-12T22:11:38+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZhbGlkdXNlckBkb21haW4uY29tIiwiZXhwIjoxNjYzMDAyOTM3fQ.J1RhM5W6NQGxpjzlUP5g58gXZMGFPvyYjPyBK2fRDRM]","time":"2022-09-12T22:12:37+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZhbGlkdXNlckBkb21haW4uY29tIiwiZXhwIjoxNjYzMDAzMjMyfQ.hE7nzjcJrCbtD3gE5kzVmRaoNyYVf0uTC6ssjAQAJrw]","time":"2022-09-12T22:17:33+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RpbmcxMTFAZG9tYWluLmNvbSIsImV4cCI6MTY2MzAwMzI5Nn0.9HhB_fD_eEXVfCN6-6DN5aEALleaImeMa-tObG3clAA]","time":"2022-09-12T22:18:36+05:00"}
+{"level":"info","msg":"testing111@domain.com","time":"2022-09-12T22:18:36+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-12T22:18:42+05:00"}
+{"level":"info","msg":"User Valid testing111@domain.com","time":"2022-09-12T22:18:42+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-12T22:18:47+05:00"}
+{"level":"info","msg":"User Valid testing111@domain.com","time":"2022-09-12T22:18:47+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-12T22:18:52+05:00"}
+{"level":"info","msg":"User Valid testing111@domain.com","time":"2022-09-12T22:18:52+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-12T22:18:57+05:00"}
+{"level":"info","msg":"User Valid testing111@domain.com","time":"2022-09-12T22:18:57+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-12T22:19:02+05:00"}
+{"level":"info","msg":"User Valid testing111@domain.com","time":"2022-09-12T22:19:02+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-12T22:19:07+05:00"}
+{"level":"info","msg":"User Valid testing111@domain.com","time":"2022-09-12T22:19:07+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-12T22:19:12+05:00"}
+{"level":"info","msg":"User Valid testing111@domain.com","time":"2022-09-12T22:19:12+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-12T22:19:17+05:00"}
+{"level":"info","msg":"User Valid testing111@domain.com","time":"2022-09-12T22:19:17+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZhbGlkdXNlckBkb21haW4uY29tIiwiZXhwIjoxNjYzMDAzMzM5fQ.dwYn6arGgs4MZEVmOtNglMThF80i6LDOjvVVOoMAYFA]","time":"2022-09-12T22:19:19+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-12T22:19:22+05:00"}
+{"level":"info","msg":"User Valid testing111@domain.com","time":"2022-09-12T22:19:22+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-12T22:19:27+05:00"}
+{"level":"info","msg":"User Valid testing111@domain.com","time":"2022-09-12T22:19:27+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/","referer":"","request_id":"","status":404,"time":"2022-09-13T02:50:41+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-13T13:14:46+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-13T13:15:48+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-14T20:25:07+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIxMjNAdXNlci5jb20iLCJleHAiOjE2NjMxNjkzMTJ9.A5P2wmkObdlmcVPhExfvXFireCvR0CwqUX06m9tl8XA]","time":"2022-09-14T20:25:32+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/logout","request_id":"","status":404,"time":"2022-09-14T20:25:37+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-14T20:25:43+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIxMjM0QHVzZXIuY29tIiwiZXhwIjoxNjYzMTY5MzUwfQ.70du2CVHxpQCAdRENmsL-BE9UGhSc9-YfH7Ao8_xfUY]","time":"2022-09-14T20:26:10+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/register","request_id":"","status":404,"time":"2022-09-14T20:26:10+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/logout","request_id":"","status":404,"time":"2022-09-14T20:26:15+05:00"}

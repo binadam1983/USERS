@@ -138,7 +138,7 @@ func TestGetUsers(t *testing.T) {
 
 	assert.Equal(t, w.Code, http.StatusFound)
 	require.NotEmpty(t, w.Body.String())
-	//require.Contains(t, w.Body.String(), "USERS")
+	require.Contains(t, w.Body.String(), "testing123@testing.com")
 }
 
 func TestHomepage(t *testing.T) {

@@ -18,8 +18,8 @@ func getRouter(withTemplates bool) *gin.Engine {
 
 func payloadValid() string {
 	params := url.Values{}
-	params.Add("email", "testing1234@testing.com")
-	params.Add("password", "testing1234")
+	params.Add("email", "testing123@testing.com")
+	params.Add("password", "testing123")
 	return params.Encode()
 }
 func payloadInvalid() string {
