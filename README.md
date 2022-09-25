@@ -19,7 +19,7 @@ Heads Up: simple grid animation is applied at login/registration page that chrom
 
 
 ## Installation
-----
+
 
 You would need to:
 
@@ -31,7 +31,7 @@ You would need to:
 
 Mark the 'email' column 'primary key' and you're good to go.
 
-----
+
 
 
 ## Usage
@@ -62,52 +62,13 @@ Mark the 'email' column 'primary key' and you're good to go.
 ![](images/logout.gif)
 
 ## Testing
----
 
 From Power Shell, cd into 'controllers' folder and Run:
 ```
 
-C:\Users\smc\go\src\github.com\users\controllers> go.exe test -timeout 30s -v
-
-=== RUN   TestRegisterValidUsernamePassword
-[GIN] 2022/09/25 - 22:58:15 |?[90;43m 400 ?[0m|    268.1689ms |       192.0.2.1 |?[97;46m POST    ?[0m "/user/register"
-auth_test.go:37 400 does not equal 200
---- FAIL: TestRegisterValidUsernamePassword (0.28s)
-=== RUN   TestRegisterUsernameAlreadyTaken
-time="2022-09-25T22:58:15+05:00" level=info msg="email=testing123%40testing.com&password=testing123"
-[GIN] 2022/09/25 - 22:58:16 |?[90;43m 400 ?[0m|    426.2649ms |       192.0.2.1 |?[97;46m POST    ?[0m "/user/register"
---- PASS: TestRegisterUsernameAlreadyTaken (0.43s)
-=== RUN   TestRegisterUsernameInvalid
-[GIN] 2022/09/25 - 22:58:16 |?[90;43m 400 ?[0m|            0s |       192.0.2.1 |?[97;46m POST    ?[0m "/user/register"
---- PASS: TestRegisterUsernameInvalid (0.00s)
-=== RUN   TestLoginValidCredentials
-time="2022-09-25T22:58:16+05:00" level=info msg="200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RpbmcxMjNAdGVzdGluZy5jb20iLCJleHAiOjE2NjQxMjg4NzZ9.B_0zSZsSiCj29ZUgAGfYKWtIhyuUbBKVyIecZPY21FA]"
-time="2022-09-25T22:58:16+05:00" level=info msg=testing123@testing.com
-[GIN] 2022/09/25 - 22:58:16 |?[97;42m 200 ?[0m|    454.3002ms |       192.0.2.1 |?[97;46m POST    ?[0m "/user/login"
---- PASS: TestLoginValidCredentials (0.46s)
-=== RUN   TestLoginInvalidCredentials
-time="2022-09-25T22:58:16+05:00" level=info msg="Incorrect credentials OR Account does not exist. if later, Please Register first"
-
-[GIN] 2022/09/25 - 22:58:16 |?[90;43m 404 ?[0m|    235.1578ms |       192.0.2.1 |?[97;46m POST    ?[0m "/user/login"
---- PASS: TestLoginInvalidCredentials (0.24s)
-=== RUN   TestLogout
-time="2022-09-25T22:58:17+05:00" level=info msg="200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RpbmcxMjNAdGVzdGluZy5jb20iLCJleHAiOjE2NjQxMjg4Nzd9.vq_SOgsctlnPqnDtoJH9kxV5ZDkwhX2ICAVMGSD0R5o]"
-time="2022-09-25T22:58:17+05:00" level=info msg=testing123@testing.com
-[GIN] 2022/09/25 - 22:58:17 |?[97;42m 200 ?[0m|    628.4184ms |       192.0.2.1 |?[97;46m POST    ?[0m "/user/login"
-[GIN] 2022/09/25 - 22:58:17 |?[90;43m 404 ?[0m|            0s |       192.0.2.1 |?[97;44m GET     ?[0m "/user/logout"
---- PASS: TestLogout (0.64s)
-=== RUN   TestGetUsers
-time="2022-09-25T22:58:18+05:00" level=info msg="200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RpbmcxMjNAdGVzdGluZy5jb20iLCJleHAiOjE2NjQxMjg4Nzh9.UZGTaa5eoT2qKVYsCOXQ8r5PO8-gfAvLqnYDFYj75X8]"
-time="2022-09-25T22:58:18+05:00" level=info msg=testing123@testing.com
-[GIN] 2022/09/25 - 22:58:18 |?[97;42m 200 ?[0m|    441.2951ms |       192.0.2.1 |?[97;46m POST    ?[0m "/user/login"
-[GIN] 2022/09/25 - 22:58:18 |?[90;47m 302 ?[0m|       5.004ms |       192.0.2.1 |?[97;44m GET     ?[0m "/user/users"
---- PASS: TestGetUsers (0.45s)
-=== RUN   TestHomepage
-[GIN] 2022/09/25 - 22:58:18 |?[97;42m 200 ?[0m|            0s |       192.0.2.1 |?[97;44m GET     ?[0m "/user"
---- PASS: TestHomepage (0.00s)
-FAIL
-exit status 1
 PS C:\Users\smc\go\src\github.com\users\controllers> go.exe test -timeout 30s -v
+
+
 === RUN   TestRegisterValidUsernamePassword
 time="2022-09-25T23:02:34+05:00" level=info msg="200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RpbmcxMjNAdGVzdGluZy5jb20iLCJleHAiOjE2NjQxMjkxMzR9.5EyopnEkgzYXedYLtQj9zrp8UgsA_X7oTQUKaLduEhY]"
 [GIN] 2022/09/25 - 23:02:34 |?[97;42m 200 ?[0m|    363.7776ms |       192.0.2.1 |?[97;46m POST    ?[0m "/user/register"
@@ -150,7 +111,7 @@ PS C:\Users\smc\go\src\github.com\users\controllers>
 
 ```
 
-----
+
 
 ## Your Thoughts:
 
