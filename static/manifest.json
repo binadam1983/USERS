@@ -2,6 +2,7 @@
     "name": "USERS",
     "short_name": "USERS",
     "start_url": ".",
+    "scope": ".",
     "display": "standalone",
     "description": "A web app to demonstrate user registration, login, and logout",
     "lang": " English",

@@ -116,6 +116,5 @@ const app = {
         }));
     }
 }
-import './registerServiceWorker'
 let firstTime = true
 app.init();

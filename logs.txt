@@ -20563,3 +20563,10 @@
 {"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T22:21:36+05:00"}
 {"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/","referer":"","request_id":"","status":404,"time":"2022-09-29T01:17:49+05:00"}
 {"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-29T01:18:19+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-29T01:40:37+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-29T01:43:54+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-29T01:48:59+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1lc3NhZ2VuYWVlbUBkb21haW4uY29tIiwiZXhwIjoxNjY0Mzk4MzY0fQ.7kDJDS7PsTZGoMZPYVYUT0ClN0Yrfi-tJKR75AjgsTs]","time":"2022-09-29T01:49:44+05:00"}
+{"level":"info","msg":"messagenaeem@domain.com","time":"2022-09-29T01:49:44+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-29T01:49:46+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-29T01:49:46+05:00"}
