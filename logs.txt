@@ -20105,3 +20105,461 @@
 {"level":"info","msg":"token is not empty...","time":"2022-09-26T00:28:30+05:00"}
 {"level":"info","msg":"User Valid freeman@domain.com","time":"2022-09-26T00:28:30+05:00"}
 {"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/login","referer":"","request_id":"","status":404,"time":"2022-09-26T00:28:45+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-27T21:26:04+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-27T21:42:36+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1lc3NhZ2VuYWVlbUBkb21haW4uY29tIiwiZXhwIjoxNjY0Mjk4MTI4fQ.o60jd1qNH8F3ENnChYAGQCZHL1zu_Kz_5aXXo2t8YTU]","time":"2022-09-27T21:59:08+05:00"}
+{"level":"info","msg":"messagenaeem@domain.com","time":"2022-09-27T21:59:08+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T21:59:12+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T21:59:12+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T21:59:17+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T21:59:17+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T21:59:22+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T21:59:22+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T21:59:27+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T21:59:27+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T21:59:32+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T21:59:32+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T21:59:37+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T21:59:37+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T21:59:42+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T21:59:42+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T21:59:47+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T21:59:47+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T21:59:52+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T21:59:52+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T21:59:57+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T21:59:57+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:02+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:02+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:07+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:07+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:12+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:12+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:13+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:13+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:17+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:17+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:18+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:18+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:22+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:22+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:23+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:23+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:27+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:27+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:28+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:28+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:32+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:32+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:33+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:33+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:37+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:37+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:38+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:38+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:42+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:42+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:43+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:43+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:47+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:47+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:48+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:48+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:52+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:52+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:53+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:53+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:57+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:57+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:00:58+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:00:58+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:02+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:02+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:03+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:03+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:07+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:07+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:08+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:08+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:12+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:12+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:13+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:13+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:17+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:17+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:18+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:18+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:22+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:22+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:23+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:23+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:27+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:27+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:28+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:28+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:32+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:32+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:33+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:33+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:37+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:37+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:38+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:38+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:42+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:42+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:43+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:43+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:47+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:47+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:48+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:48+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:52+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:52+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:53+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:53+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:57+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:57+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:01:58+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:01:58+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:02+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:02:02+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:03+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:02:03+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:07+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:02:07+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:08+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:02:08+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:12+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:02:12+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:13+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:02:13+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:17+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:02:17+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:18+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:02:18+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:22+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:02:22+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:23+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:02:23+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:27+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:02:27+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:28+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:02:28+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:32+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:02:32+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:33+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:02:33+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:37+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:02:37+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:38+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:02:38+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:42+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:02:42+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:43+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:02:43+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:47+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:02:47+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:48+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:02:48+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:52+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:02:52+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:53+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:02:53+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:57+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:02:57+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:02:58+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:02:58+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:02+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:02+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:03+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:03+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:07+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:07+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:08+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:08+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:12+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:12+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:13+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:13+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:17+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:17+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:18+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:18+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:22+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:22+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:23+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:23+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:27+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:27+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:28+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:28+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:32+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:32+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:33+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:33+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:37+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:37+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:38+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:38+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:42+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:42+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:43+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:43+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:47+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:47+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:48+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:48+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:52+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:52+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:53+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:53+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:57+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:57+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:03:58+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:03:58+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:04:02+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:02+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:04:03+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:03+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:04:07+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:07+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:04:08+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:08+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:04:12+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:12+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:04:13+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:13+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:04:17+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:17+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:04:18+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:18+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:04:22+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:22+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:04:23+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:23+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:04:27+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:27+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:04:28+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:28+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:04:32+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:32+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:04:33+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:33+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:04:37+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:37+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:04:38+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:38+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:04:42+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:42+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:04:43+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:43+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:04:47+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:47+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:04:48+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:48+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:04:52+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:52+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:04:53+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:53+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:04:57+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:57+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:04:58+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:04:58+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:02+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:02+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:03+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:03+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:07+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:07+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:08+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:08+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:12+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:12+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:13+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:13+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:17+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:17+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:18+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:18+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:22+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:22+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:23+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:23+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:27+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:27+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:28+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:28+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:32+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:32+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:33+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:33+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:37+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:37+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:38+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:38+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:42+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:42+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:43+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:43+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:47+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:47+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:48+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:48+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:52+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:52+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:53+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:53+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:57+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:57+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:05:58+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:05:58+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:02+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:02+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:03+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:03+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:07+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:07+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:08+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:08+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:12+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:12+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:13+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:13+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:17+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:17+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:18+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:18+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:22+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:22+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:23+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:23+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:27+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:27+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:28+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:28+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:32+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:32+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:33+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:33+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:37+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:37+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:38+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:38+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:42+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:42+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:43+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:43+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:47+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:47+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:48+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:48+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:52+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:52+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:53+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:53+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:53+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:53+05:00"}
+{"level":"info","msg":"token is empty","time":"2022-09-27T22:06:57+05:00"}
+{"level":"info","msg":"User not logged in, please login first","time":"2022-09-27T22:06:57+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1lc3NhZ2VuYWVlbUBkb21haW4uY29tIiwiZXhwIjoxNjY0Mjk4NTk4fQ.6jGBzdONVZesZhJ61qL7WSsSC9Y6bOxwXPuXPpW0gks]","time":"2022-09-27T22:06:58+05:00"}
+{"level":"info","msg":"messagenaeem@domain.com","time":"2022-09-27T22:06:58+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:07:04+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:07:04+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:07:09+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:07:09+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:07:14+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:07:14+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:07:19+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:07:19+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:07:24+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:07:24+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:07:29+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:07:29+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:07:34+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:07:34+05:00"}
+{"level":"info","msg":"token is not empty...","time":"2022-09-27T22:07:39+05:00"}
+{"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-27T22:07:39+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/login","referer":"","request_id":"","status":404,"time":"2022-09-28T01:08:48+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/login","referer":"","request_id":"","status":404,"time":"2022-09-28T01:08:52+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1lc3NhZ2VuYWVlbUBkb21haW4uY29tIiwiZXhwIjoxNjY0MzA5NTUyfQ.IhtxBSSrE_I-88T5mHy31bwLbYhSpzAc6fo5SbnBEBo]","time":"2022-09-28T01:09:32+05:00"}
+{"level":"info","msg":"messagenaeem@domain.com","time":"2022-09-28T01:09:32+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/login","referer":"","request_id":"","status":404,"time":"2022-09-28T01:09:43+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/login","referer":"","request_id":"","status":404,"time":"2022-09-28T01:10:07+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/login","referer":"","request_id":"","status":404,"time":"2022-09-28T01:10:12+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/login","referer":"","request_id":"","status":404,"time":"2022-09-28T01:10:47+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T01:11:13+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:17:46+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:17:49+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:17:55+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:23:31+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:24:01+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:24:01+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:24:58+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:24:58+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:24:58+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:24:58+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:24:58+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:24:58+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:25:02+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T01:25:32+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:25:38+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:26:13+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:26:22+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:26:27+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:26:28+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:26:28+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:26:28+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:26:28+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:26:28+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:26:28+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:26:29+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:26:29+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:26:29+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:26:29+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:29:36+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/manifest.json","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T01:29:36+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T01:38:08+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T01:55:43+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T02:01:50+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T02:03:27+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/sw.js","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T02:11:34+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/sw.js","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T02:11:58+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T02:12:02+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/sw.js","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T02:12:08+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/sw.js","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T02:12:12+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/sw.js","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T02:13:53+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/sw.js","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T02:14:04+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T02:14:08+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/sw.js","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T02:14:15+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/sw.js","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T02:14:19+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/sw.js","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T02:15:22+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/sw.js","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T02:15:29+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T02:15:33+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/sw.js","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T02:16:13+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/sw.js","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T02:16:17+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/sw.js","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T02:40:58+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/sw.js","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T02:41:06+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/sw.js","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T02:41:13+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T02:41:18+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/sw.js","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T02:41:25+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/user/sw.js","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T02:41:29+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T02:42:33+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T03:02:22+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T03:04:14+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T03:05:43+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T03:07:23+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T03:08:32+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T03:11:02+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T03:15:55+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T03:18:44+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T13:10:22+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T13:10:54+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T13:13:26+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"https://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T17:13:11+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T17:16:01+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T17:19:49+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T17:22:27+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-28T18:49:19+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-28T22:21:36+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/","referer":"","request_id":"","status":404,"time":"2022-09-29T01:17:49+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/robots.txt","referer":"","request_id":"","status":404,"time":"2022-09-29T01:18:19+05:00"}

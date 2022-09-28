@@ -1,4 +1,4 @@
-A "work-in-progress" mini-project to demonstrate user registration, login, logout, and performing simple DB queries - all that using:
+A "Progressive Web App" to demonstrate user registration, login, logout, and performing simple DB queries - all that using:
 
 - Golang Gin framework
 - Custom middlewares for Logs(in JSON format using 'logrus'), CORS, and Authentication/Authorization
@@ -111,6 +111,9 @@ PS C:\Users\smc\go\src\github.com\users\controllers>
 
 ```
 
+## Progressive Web App Stats
+
+![](images/pwa_ready.JPG)
 
 
 ## Your Thoughts:
