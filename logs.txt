@@ -20570,3 +20570,6 @@
 {"level":"info","msg":"messagenaeem@domain.com","time":"2022-09-29T01:49:44+05:00"}
 {"level":"info","msg":"token is not empty...","time":"2022-09-29T01:49:46+05:00"}
 {"level":"info","msg":"User Valid messagenaeem@domain.com","time":"2022-09-29T01:49:46+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-09-30T01:16:40+05:00"}
+{"level":"info","msg":"200 map[Token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZhbGlkdXNlckBkb21haW4uY29tIiwiZXhwIjoxNjY0NDgzMTAzfQ.uptxvr6szOYnr4rbpnpXXAAj_qCZBcepDfDOKKhdBmg]","time":"2022-09-30T01:20:03+05:00"}
+{"client_ip":"127.0.0.1","duration(ms)":0,"level":"error","method":"GET","msg":"","path":"/favicon.ico","referer":"http://localhost:3333/user/","request_id":"","status":404,"time":"2022-10-02T12:36:54+05:00"}

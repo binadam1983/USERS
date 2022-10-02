@@ -33,7 +33,8 @@ func Register(c *gin.Context) {
 
 	valid, err := utils.ValidateEmail(input.Email)
 	if err != nil || !valid {
-		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+		//c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+		c.HTML(http.StatusBadRequest, "index.html", gin.H{"error": err.Error()})
 		return
 	}
 
@@ -43,7 +44,8 @@ func Register(c *gin.Context) {
 
 	err = user.SaveUser()
 	if err != nil {
-		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+		//c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+		c.HTML(http.StatusBadRequest, "index.html", gin.H{"error": err.Error()})
 		return
 	}
 

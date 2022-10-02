@@ -34,7 +34,7 @@ func GenerateToken(email string) (string, error) {
 	//creating a token
 	token, err := jwt.NewWithClaims(jwt.SigningMethodHS256, jwt.MapClaims{
 		"email": email,
-		"exp":   time.Now().Add(3 * time.Minute).Unix(),
+		"exp":   time.Now().Add(5 * time.Minute).Unix(),
 	}).SignedString([]byte(os.Getenv("SECRET_KEY")))
 	if err != nil {
 		return "", err
