@@ -1,4 +1,4 @@
-A "Progressive Web App" to demonstrate user registration, login, logout, and performing simple DB queries - all that using:
+A Full-Stack, "Progressive Web App" to demonstrate user registration, login, logout, and performing simple DB queries; all that using:
 
 - Golang Gin framework
 - Custom middlewares for Logs(in JSON format using 'logrus'), CORS, and Authentication/Authorization
